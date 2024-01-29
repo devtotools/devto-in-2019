@@ -1,72 +1,83 @@
-html {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
+/* ==UserStyle==
+@name           dev.to(gether) 2019
+@namespace      github.com/devtotools/devto-in-2019
+@homepageURL    https://github.com/devtotools/devto-in-2019
+@version        0.1.0
+@description    Return to the old design of DEV in 2019 !
+@author         Thomas Bnt
+@license		Apache 2.0
+==/UserStyle== */
+@-moz-document domain("dev.to") {
+	html {
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	}
 
-/* Articles and sidebar */
-.crayons-card:not(.crayons-article):not(.comment__content),
-.default-navigation-links,
-article.crayons-story,
-article[id="featured-story-marker"],
-nav[aria-labelledby="other-nav-heading-sidebar"],
-nav[aria-label="Secondary sidebar nav"] {
-    padding: 10px 12px;
-    margin-bottom: 15px;
-    position: relative;
-    background: var(--theme-container-background, #fff);
-    color: var(--theme-container-color, #0a0a0a);
-    border-radius: 3px;
-    border: var(--theme-container-border, 1px solid #d6d6d6);
-    box-shadow: var(--theme-container-box-shadow, 3px 3px 0px #bababa);
-}
+	/* Articles and sidebar */
+	.crayons-card:not(.crayons-article):not(.comment__content),
+	.default-navigation-links,
+	article.crayons-story,
+	article[id="featured-story-marker"],
+	nav[aria-labelledby="other-nav-heading-sidebar"],
+	nav[aria-label="Secondary sidebar nav"] {
+		padding: 10px 12px;
+		margin-bottom: 15px;
+		position: relative;
+		background: var(--theme-container-background, #fff);
+		color: var(--theme-container-color, #0a0a0a);
+		border-radius: 3px;
+		border: var(--theme-container-border, 1px solid #d6d6d6);
+		box-shadow: var(--theme-container-box-shadow, 3px 3px 0px #bababa);
+	}
 
-.crayons-navigation {
-    margin: var(--su-1) 0 !important;
-}
-.crayons-navigation--horizontal .crayons-navigation__item,
-.crayons-navigation--horizontal .crayons-navigation__item:hover {
-    background-color: unset;
-    color: #0a0a0a;
-    text-transform: uppercase;
-    padding: 0 .7rem;
-}
+	.crayons-navigation {
+		margin: var(--su-1) 0 !important;
+	}
+	.crayons-navigation--horizontal .crayons-navigation__item,
+	.crayons-navigation--horizontal .crayons-navigation__item:hover {
+		background-color: unset;
+		color: #0a0a0a;
+		text-transform: uppercase;
+		padding: 0 .7rem;
+	}
 
-.crayons-navigation--horizontal .crayons-navigation__item--current {
-    background: #cfd7ff;
-    color: #0a0a0a;
-    border: 1px solid #4e57ef;
-    box-shadow: 3px 4px 0px #4e57ef;
-    border-radius: unset;
-}
-.crayons-navigation--horizontal .crayons-navigation__item--current:hover {
-    background: #cfd7ff;
-}
+	.crayons-navigation--horizontal .crayons-navigation__item--current {
+		background: #cfd7ff;
+		color: #0a0a0a;
+		border: 1px solid #4e57ef;
+		box-shadow: 3px 4px 0px #4e57ef;
+		border-radius: unset;
+	}
+	.crayons-navigation--horizontal .crayons-navigation__item--current:hover {
+		background: #cfd7ff;
+	}
 
-aside .crayons-card {
-    margin-bottom: unset;
-}
-sidebar-wrapper-left h2,
-aside h2 {
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-}
+	aside .crayons-card {
+		margin-bottom: unset;
+	}
+	sidebar-wrapper-left h2,
+	aside h2 {
+		font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	}
 
-/* Navbar */
-.topbar {
-    font-size: 17px;
-    background: #fdf9f3;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.33);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
-}
-a.c-cta {
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 3px;
-    color: #0a0a0a;
-    border: 2px solid #0a0a0a;
-    background: #66e2d5;
-}
-a.c-cta:hover {
-    border: 2px solid #0a0a0a;
-    color: #0a0a0a;
-    background: #66e2d5;
-    text-decoration: unset;
+	/* Navbar */
+	.topbar {
+		font-size: 17px;
+		background: #fdf9f3;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.33);
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+	}
+	a.c-cta {
+		text-transform: uppercase;
+		font-weight: bold;
+		border-radius: 3px;
+		color: #0a0a0a;
+		border: 2px solid #0a0a0a;
+		background: #66e2d5;
+	}
+	a.c-cta:hover {
+		border: 2px solid #0a0a0a;
+		color: #0a0a0a;
+		background: #66e2d5;
+		text-decoration: unset;
+	}
 }
