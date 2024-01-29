@@ -13,7 +13,7 @@ Rollback [dev.to](https://dev.to) website into 2019 !
 2. Go to [UserStyles](https://userstyles.world/style/14436/dev-together-2019) and install the style.
 3. Enjoy!
 
-### Already have Tampermonkey or alternative ?
+### Already have Stylus or alternative ?
 
 | :electric_plug: | [Click here to install the style →](https://userstyles.world/style/14436/dev-together-2019) |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------|
