@@ -10,12 +10,12 @@ Rollback [dev.to](https://dev.to) website into 2019 !
 ## How to install it ?
 
 1. Install **[Stylus](https://add0n.com/stylus.html)** or similar extension which enables the browser to edit styles.
-2. Go to [UserStyles](https://userstyles.world/style/14436/dev-together-2019) and install the style.
+2. Go to [UserStyles](https://userstyles.world/style/14437/dev-together-2019) and install the style.
 3. Enjoy!
 
 ### Already have Stylus or alternative ?
 
-| :electric_plug: | [Click here to install the style →](https://userstyles.world/style/14436/dev-together-2019) |
+| :electric_plug: | [Click here to install the style →](https://userstyles.world/style/14437/dev-together-2019) |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 
 ## Source(s)
