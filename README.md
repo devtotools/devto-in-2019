@@ -2,8 +2,7 @@
 
 Rollback [dev.to](https://dev.to) website into 2019 !
 
-> ![NOTE]
->
+> [!NOTE]
 > This script was created for [dev.to](https://dev.to).
 
 ![Preview of the dev.to 2019 theme](https://github.com/devtotools/open-sidebar-mod-menu/assets/14293805/46ab96c1-86ca-46f6-8bcf-eb35b366d4ee)
