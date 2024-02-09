@@ -8,16 +8,6 @@
 @author         Thomas Bnt
 @license		Apache 2.0
 ==/UserStyle== */
-/* ==UserStyle==
-@name           dev.to(gether) 2019
-@namespace      github.com/devtotools/devto-in-2019
-@homepageURL    https://github.com/devtotools/devto-in-2019
-@updateURL		https://github.com/devtotools/devto-in-2019/blob/main/devto-style-2019.user.css
-@version        0.1.0
-@description    Return to the old design of DEV in 2019 !
-@author         Thomas Bnt
-@license		Apache 2.0
-==/UserStyle== */
 @-moz-document domain("dev.to") {
 	html {
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
