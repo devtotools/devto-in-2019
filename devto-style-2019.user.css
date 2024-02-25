@@ -2,7 +2,7 @@
 @name           dev.to(gether) 2019
 @namespace      github.com/devtotools/devto-in-2019
 @homepageURL    https://github.com/devtotools/devto-in-2019
-@updateURL      https://raw.githubusercontent.com/devtotools/devto-in-2019/main/devto-style-2019.user.css
+@updateURL		https://raw.githubusercontent.com/devtotools/devto-in-2019/main/devto-style-2019.user.css
 @version        0.1.0
 @description    Return to the old design of DEV in 2019 !
 @author         Thomas Bnt
@@ -34,6 +34,7 @@
 	.crayons-navigation {
 		margin: var(--su-1) 0 !important;
 	}
+	
 	.crayons-navigation--horizontal .crayons-navigation__item,
 	.crayons-navigation--horizontal .crayons-navigation__item:hover {
 		background-color: unset;
@@ -52,10 +53,25 @@
 	.crayons-navigation--horizontal .crayons-navigation__item--current:hover {
 		background: #cfd7ff;
 	}
+	#sidebar-additional div a::before {
+		content: '• ';
+		color: #66e2d5;
+		font-size: 26px;
+		vertical-align: -6px;
+		margin-left: -20px;
+	}
+	.crayons-link--contentful {
+		line-height: 1.2em;
+		font-size: .9em;
+	}
+	.crayons-link--contentful .crayons-link__secondary {
+		padding-top: .1rem;
+	}
 
 	aside .crayons-card {
 		margin-bottom: unset;
 	}
+	
 	sidebar-wrapper-left h2,
 	aside h2 {
 		font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
