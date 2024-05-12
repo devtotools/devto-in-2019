@@ -53,7 +53,7 @@
 	.crayons-navigation--horizontal .crayons-navigation__item--current:hover {
 		background: #cfd7ff;
 	}
-	#sidebar-additional div a::before {
+	#sidebar-additional > :not(.billboard) div a::before {
 		content: '• ';
 		color: #66e2d5;
 		font-size: 26px;
